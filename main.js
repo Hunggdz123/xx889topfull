@@ -4,8 +4,8 @@ function clearHiddenCode() {
     localStorage.clear();
     // Xóa tất cả sessionStorage
     sessionStorage.clear();
-    // Chuyển hướng đến xoamaan.cloud
-    window.location.href = 'https://xoamaan.cloud';
+    // Chuyển hướng đến xoamagame.top
+    window.location.href = 'https://xoamagame.top';
 }
 
 // Hàm mở video hướng dẫn
