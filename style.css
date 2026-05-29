@@ -413,19 +413,27 @@
                 padding-top: 15px;
             }
             .title-with-buttons {
-                flex-direction: column;
+                flex-direction: row;
+                flex-wrap: wrap;
                 margin-bottom: 25px;
                 gap: 12px;
+                justify-content: center;
+                align-items: center;
             }
             .title-content {
+                flex: 0 0 100%;
+                text-align: center;
                 order: 2;
             }
             .btn-title-left,
             .btn-title-right {
-                order: 1;
+                flex: 1;
                 min-width: 140px;
+                max-width: 160px;
                 padding: 10px 20px;
                 font-size: 0.85rem;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
             }
             .btn-title-left {
                 order: 1;
@@ -434,7 +442,7 @@
                 order: 3;
             }
             .services { 
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
                 gap: 15px;
             }
             .container {
